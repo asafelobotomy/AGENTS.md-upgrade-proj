@@ -2,6 +2,8 @@
 
 This repository provides documentation and examples for the `system_maint.sh` script. The instructions below apply to all contributions.
 
+The repository does not contain the `system_maint.sh` script itself; use these files as a reference for your own copy.
+
 ## Documentation Layout
 
 - `AGENTS_CI.md` &ndash; explains how ShellCheck and GitHub Actions lint the script.
