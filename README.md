@@ -1,2 +1,5 @@
 # AGENTS.md-upgrade-proj
-Create the perfect AGENTS.md
+
+This repository demonstrates how to organize AGENTS documentation.
+See `AGENTS.md` for contribution guidelines and references to the
+other AGENTS files.
