@@ -4,9 +4,9 @@ This repository provides documentation and examples for the `system_maint.sh` sc
 
 ## Documentation Layout
 
-- `AGENTS_CI.md.txt` &ndash; explains how ShellCheck and GitHub Actions lint the script.
-- `AGENTS_SYSTEM.md.txt` &ndash; lists required system utilities.
-- `AGENTS_SECURITY.md.txt` &ndash; describes security and backup tools.
+- `AGENTS_CI.md` &ndash; explains how ShellCheck and GitHub Actions lint the script.
+- `AGENTS_SYSTEM.md` &ndash; lists required system utilities.
+- `AGENTS_SECURITY.md` &ndash; describes security and backup tools.
 
 Refer to these files if you need details about dependencies or CI features.
 
