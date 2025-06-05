@@ -39,7 +39,7 @@ rootkit detection, firewall auditing, and backup operations._
 - **`rsync`**  
   Performs a full incremental backup of the root filesystem to a specified
   directory.
-  _Optional and manually triggered during script execution._
+  _Optional and manually triggered._
 
 ---
 
@@ -47,7 +47,7 @@ rootkit detection, firewall auditing, and backup operations._
 
 - **`gamemode`**  
   A runtime daemon that optimizes the system for gaming workloads.  
-  _The script checks its status if installed._
+  Check its status if installed.
 
 - **`nvidia-utils`**  
   Enables `nvidia-smi` for querying NVIDIA GPU status and temperatures.  
@@ -58,7 +58,7 @@ rootkit detection, firewall auditing, and backup operations._
 ## Notes
 
 - All security-related tools are **optional but recommended**.
-- If a tool is not installed, the script prompts the user to install or skip it.
+- If a tool is not installed, you can choose to install or skip it.
 - Skipping an agent disables its corresponding feature gracefully.
 - Backups (via Timeshift, Snapper, or rsync) are triggered early to ensure
   recovery is possible.

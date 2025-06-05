@@ -40,7 +40,7 @@ functionality such as packages, storage, system monitoring, and cleanup._
 ## 🌐 Platform Tools
 
 - **`flatpak`**  
-  Enables support for Flatpak applications. The script uses it to update
+  Enables support for Flatpak applications. Use it to update
   Flatpak-managed apps if installed.
 
 ---
@@ -68,7 +68,7 @@ functionality such as packages, storage, system monitoring, and cleanup._
   critical error messages.
 
 - **`systemctl`**  
-  Core systemd utility for managing system services. The script checks for
+  Core systemd utility for managing system services. Check for
   failed services.
 
 ---
@@ -87,7 +87,7 @@ functionality such as packages, storage, system monitoring, and cleanup._
 ## Notes
 
 - These agents are considered **essential** for baseline operation.
-- The script attempts to detect and use each tool. If a tool is missing and
-  required, it will prompt for installation or skip the related functionality.
+- You can detect and use each tool.
+  If a tool is missing and required, you may prompt for installation or skip it.
 
 ---
