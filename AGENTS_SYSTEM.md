@@ -16,7 +16,7 @@ functionality such as packages, storage, system monitoring, and cleanup._
 - **`paru`**  
   An AUR helper and frontend for `pacman`. Enables seamless access to Arch User
   Repository (AUR) packages.
-  _Preferred if installed. Script prompts to install if missing._
+  _Preferred if installed. If you write automation scripts, prompt to install if missing._
 
 ---
 
@@ -87,7 +87,8 @@ functionality such as packages, storage, system monitoring, and cleanup._
 ## Notes
 
 - These agents are considered **essential** for baseline operation.
-- You can detect and use each tool.
-  If a tool is missing and required, you may prompt for installation or skip it.
+- You can detect and use each tool in your own scripts.
+  If a tool is missing and required, you may prompt for installation or skip it, depending on your automation.
+- Tool versions: Consider specifying minimum required versions in your scripts or checks where appropriate.
 
 ---
