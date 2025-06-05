@@ -1,9 +1,8 @@
 # AGENTS_SYSTEM.md
 
-> **System Maintenance Agents**  
-> _This file documents the system-level agents used by the `system_maint.sh`
-script to manage core functionality such as packages, storage, system
-monitoring, and cleanup._
+> **System Maintenance Agents**
+> _This file documents the system-level tools used to manage core
+functionality such as packages, storage, system monitoring, and cleanup._
 
 ---
 
@@ -87,8 +86,7 @@ monitoring, and cleanup._
 
 ## Notes
 
-- These agents are considered **essential** for the baseline operation of
-  `system_maint.sh`.
+- These agents are considered **essential** for baseline operation.
 - The script attempts to detect and use each tool. If a tool is missing and
   required, it will prompt for installation or skip the related functionality.
 
