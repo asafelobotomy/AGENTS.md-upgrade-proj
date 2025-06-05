@@ -2,7 +2,7 @@
 
 > **Shell Script Linting & Continuous Integration**  
 > _This file documents the use of ShellCheck for linting and GitHub Actions for
-automated validation of shell scripts._
+automated validation of shell scripts and documentation._
 
 ---
 
@@ -27,3 +27,9 @@ shellcheck <your_script.sh>
 
 This repository includes workflows for ShellCheck, Markdown linting, Proselint,
 and YAML linting.
+
+- [YAML Lint Workflow](.github/workflows/yamllint.yml)
+- [Markdown Lint Workflow](.github/workflows/markdownlint.yml)
+- [Proselint Workflow](.github/workflows/proselint.yml)
+
+Make sure to run these checks locally if possible before pushing changes. All pull requests should pass the automated checks for code quality and documentation standards.
