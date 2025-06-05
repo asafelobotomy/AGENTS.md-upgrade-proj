@@ -3,13 +3,13 @@
 This repository provides documentation for Arch Linux maintenance tasks.
 The instructions below apply to all contributions.
 
-There is no included script; adapt these notes to fit your workflow.
+There is no included automation script in this repository; adapt these notes to fit your workflow if you create scripts.
 
 ## Documentation Layout
 
-- `AGENTS_CI.md` &ndash; shows how ShellCheck and GitHub Actions lint scripts.
-- `AGENTS_SYSTEM.md` &ndash; lists required system utilities.
-- `AGENTS_SECURITY.md` &ndash; describes security and backup tools.
+- [`AGENTS_CI.md`](./AGENTS_CI.md) &ndash; shows how ShellCheck and GitHub Actions lint scripts.
+- [`AGENTS_SYSTEM.md`](./AGENTS_SYSTEM.md) &ndash; lists required system utilities.
+- [`AGENTS_SECURITY.md`](./AGENTS_SECURITY.md) &ndash; describes security and backup tools.
 
 Refer to these files if you need details about dependencies or CI features.
 
