@@ -1,4 +1,5 @@
 # .yamllint.yml
+# Custom linting rules: Increase max line length for readability, enforce 2-space indentation, and disallow trailing spaces.
 extends: default
 
 rules:
