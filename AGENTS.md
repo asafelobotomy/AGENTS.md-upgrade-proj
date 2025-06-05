@@ -1,8 +1,8 @@
 # AGENTS Repository Guide
 
-This repository provides documentation and examples for the `system_maint.sh` script. The instructions below apply to all contributions.
+This repository provides documentation and examples for system maintenance tasks. The instructions below apply to all contributions.
 
-The repository does not contain the `system_maint.sh` script itself; use these files as a reference for your own copy.
+The repository does not contain a specific maintenance script; use these files as a reference for your own solution.
 
 ## Documentation Layout
 
@@ -17,7 +17,7 @@ Refer to these files if you need details about dependencies or CI features.
 1. **Create small commits** using present‑tense summaries (e.g. `Add root AGENTS guide`).
 2. **Include a brief body** if the commit needs more context.
 3. **Run relevant checks** before committing:
-   - If `system_maint.sh` exists, execute `shellcheck system_maint.sh`.
+   - If you maintain a shell script, execute `shellcheck` on it.
 4. **Open a Pull Request** summarising what changed and what checks were run.
 
 ## Pull Request Body

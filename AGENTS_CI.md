@@ -2,7 +2,7 @@
 
 > **Shell Script Linting & Continuous Integration**  
 > _This file documents the use of ShellCheck for linting and GitHub Actions for
-automated validation of `system_maint.sh`._
+automated validation of maintenance scripts._
 
 ---
 
@@ -12,14 +12,14 @@ automated validation of `system_maint.sh`._
   A static analysis tool for shell scripts. It identifies syntax errors,
   stylistic issues, and unsafe practices in POSIX/Bash scripts.
   _Used to ensure the long-term maintainability and security of
-  `system_maint.sh`._
+  maintenance scripts._
 
 ### Usage
 
 To manually check your script:
 
 ```bash
-shellcheck system_maint.sh
+shellcheck <your_script.sh>
 ```
 
 ---
